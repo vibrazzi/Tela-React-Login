@@ -23,7 +23,7 @@ const Login = () => {
         <div className="input-field">
           <input
             type="text"
-            placeholder="webertfernandes16@exemplo.com"
+            placeholder="E-mail"
             required
             value={username}
             onChange={(e) => setUsername(e.target.value)}
